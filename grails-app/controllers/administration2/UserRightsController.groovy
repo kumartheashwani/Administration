@@ -20,6 +20,7 @@ class UserRightsController {
 	{
 	    no=Integer.parseInt(rs.getString("id"))
 	}
+    
 	redirect(controller:"userRightsAdmin",action: "show", id:no)
     }
     
